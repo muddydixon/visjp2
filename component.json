@@ -1,0 +1,12 @@
+{
+  "name": "visjp2",
+  "version": "0.0.0",
+  "main": {
+    "scripts": "./public/javascripts/visjp2.js"
+  },
+  "dependencies": {
+    "d3": "~3.0.8",
+    "jquery": "~1.9.1",
+    "bootstrap": "~2.3.1"
+  }
+}

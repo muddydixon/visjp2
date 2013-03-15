@@ -1,0 +1,14 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "coffee -j ./public/javascripts/visjp2.js -c ./src/visjp2.coffee",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "jade": "*",
+    "d3": "~3.0.8"
+  }
+}
